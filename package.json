@@ -1,0 +1,29 @@
+{
+  "name": "restaurante-saborcaseiro-be",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/CristaldoGui/restaurante-saborCaseiro-be#readme",
+  "bugs": {
+    "url": "https://github.com/CristaldoGui/restaurante-saborCaseiro-be/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristaldoGui/restaurante-saborCaseiro-be.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx ts-node ./src/server.ts"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
